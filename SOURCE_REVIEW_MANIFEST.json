@@ -1,0 +1,28 @@
+{
+  "source_project": "air-more",
+  "source_commit": "01b4fbb3ea32e9f41c5d1c5dba252a3f79afa6ea",
+  "source_branch": "build/prod-report-advice-gateway",
+  "generated_at": "2026-10-30T09:35:38.841318+00:00",
+  "snapshot_scope": "Public source snapshot for GitHub",
+  "included": [
+    "airmore/",
+    "tests/",
+    "config/",
+    "data/regional/synthetic/",
+    "data/regional/template/",
+    "selected docs and offline scripts",
+    "data/regional/public-jinan-20260909/ (frozen public-source fixture)"
+  ],
+  "excluded": [
+    "internal deployment scripts and runbooks",
+    "private network addresses and operational evidence",
+    "generated reports and previews",
+    "temporary files",
+    "reference Word documents",
+    "environment files and credentials",
+    "private/runtime database snapshots"
+  ],
+  "redactions": [
+    "README references to internal reference documents were generalized"
+  ]
+}

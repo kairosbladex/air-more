@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pycn.DS_Store
+.pytest_cache/
+/out-regional/
+/var-airmore/
+.env
+.env.*
+!.env.example
+
+# Generated reports, previews, and local runtime state
+out/
+out-zhengzhou/
+output/
+outputs/
+tmp/
+var-airmore/

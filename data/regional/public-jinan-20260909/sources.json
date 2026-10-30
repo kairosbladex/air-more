@@ -1,0 +1,90 @@
+[
+  {
+    "file": "city_daily.json",
+    "url": "https://air.cnemc.cn:18007/CityData/GetAllCityDayAQIModels",
+    "method": "GET",
+    "retrieved_at": "2026-09-09T11:15:03.640432+08:00",
+    "sha256": "f92361bf69b5ece1e64aea47de58c17ad681a367c31006289d54cece459849e0",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "outlook.html",
+    "url": "https://www.mee.gov.cn/ywdt/xwfb/202609/t20260906_1165222.shtml",
+    "method": "GET",
+    "retrieved_at": "2026-09-09T11:15:03.751668+08:00",
+    "sha256": "607d2404c94ceefd9934ec2be8c4ee9fd145a406dc5f5b50ea534c86f39c0b6b",
+    "content_type": "text/html"
+  },
+  {
+    "file": "weather.json",
+    "url": "https://api.open-meteo.com/v1/forecast?latitude=36.65&longitude=117.12&hourly=temperature_2m%2Crelative_humidity_2m%2Cwind_speed_10m%2Cwind_direction_10m%2Cprecipitation&daily=weather_code%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Cwind_direction_10m_dominant&timezone=Asia%2FShanghai&start_date=2026-09-09&end_date=2026-09-13&wind_speed_unit=ms",
+    "method": "GET",
+    "retrieved_at": "2026-09-09T11:15:06.609817+08:00",
+    "sha256": "73f91d73cf4b39f5a4e8b68a9d86b9177dbb0c6ed039d044c70a9f477f780325",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_370100.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=370100",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:06.985332+08:00",
+    "sha256": "2cdb69ba1af741d86f9f599eea272650336ce579e3b71174faf39f8df0d78215",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_370300.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=370300",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:07.281330+08:00",
+    "sha256": "7178f4f5a64e464f17a8ad78df332523c51fa040a0e77c9ed170d13a38d2c3df",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_370500.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=370500",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:07.768974+08:00",
+    "sha256": "494e08ca3d522ac46acffa268ee7592d56c6017772d1606d8b52798cf83b38c9",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_370700.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=370700",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:08.145651+08:00",
+    "sha256": "b8bf2a6fdc278b60526b3fc677ce65bc7c2338f48dc8d56626b760544e98ed07",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_370900.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=370900",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:08.542281+08:00",
+    "sha256": "e6d9e6b0e4405eb70bdb4f97b0ad1c4b4cf450fe1a151ac755f623a39de3c4b5",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_371400.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=371400",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:08.917743+08:00",
+    "sha256": "dd8524f4f862563e377df133513f681b3e7a6af82e6dd67ceae2cee9872a8b3d",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_371500.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=371500",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:09.229461+08:00",
+    "sha256": "46fc1a93ae3fd9bffb953923f1ce5fff50622b781fd953d191b04031c1f5399b",
+    "content_type": "application/json; charset=utf-8"
+  },
+  {
+    "file": "city_371600.json",
+    "url": "https://air.cnemc.cn:18007/HourChangesPublish/GetCityDayAqiHistoryByCondition?citycode=371600",
+    "method": "POST",
+    "retrieved_at": "2026-09-09T11:15:09.707396+08:00",
+    "sha256": "28ddd973f1360f9f41ec6cf929bb426e76ab9ca0d1c3c30dc22f43cada395158",
+    "content_type": "application/json; charset=utf-8"
+  }
+]

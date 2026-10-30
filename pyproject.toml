@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "air-more"
+version = "0.1.0"
+description = "无人机低空环境监测报告生成系统（方案一：轻量报告服务，A/B/G 三类报告）"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "matplotlib>=3.9",
+    "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+service = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pymysql[rsa]>=1.1,<2"]
+service-test = ["pytest>=8.0", "httpx>=0.27,<1"]
+
+[project.scripts]
+airmore = "airmore.cli:main"
+airmore-worker = "airmore.service.worker:main"
+
+[tool.setuptools.package-data]
+"airmore.service" = ["assets/*.docx"]
+
+[tool.setuptools.packages.find]
+include = ["airmore*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

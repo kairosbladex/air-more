@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "data_kind": "synthetic",
+  "region": {
+    "id": "demo",
+    "name": "示例区域"
+  },
+  "report_date": "2026-09-01",
+  "issue": "TEST001",
+  "published_at": "2026-09-01T09:00:00+08:00",
+  "table_scope_id": "district",
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "synthetic",
+      "label": "确定性合成测试数据",
+      "issued_at": "2026-09-01T08:00:00+08:00"
+    }
+  ],
+  "stations": [
+    {
+      "id": "P01",
+      "name": "示例站点1",
+      "region_id": "demo",
+      "order": 0,
+      "focus": true,
+      "kind": "park"
+    },
+    {
+      "id": "P02",
+      "name": "示例站点2",
+      "region_id": "demo",
+      "order": 1,
+      "focus": true,
+      "kind": "park"
+    },
+    {
+      "id": "P03",
+      "name": "示例站点3",
+      "region_id": "demo",
+      "order": 2,
+      "focus": false,
+      "kind": "station"
+    },
+    {
+      "id": "P04",
+      "name": "示例区域东部产业园空气质量综合监测固定站",
+      "region_id": "demo",
+      "order": 3,
+      "focus": false,
+      "kind": "station"
+    }
+  ],
+  "files": {
+    "statistics": "statistics.csv",
+    "ranks": "ranks.csv",
+    "contributions": "contributions.csv",
+    "forecasts": "forecasts.json",
+    "advice": "advice.json"
+  },
+  "weather_images": [
+    {
+      "id": "W1",
+      "path": "weather-1.png",
+      "region_id": "demo",
+      "source_id": "S1",
+      "caption": "合成气象示意图，仅测试图片接入",
+      "issued_at": "2026-09-01T08:00:00+08:00",
+      "valid_start": "2026-09-01T00:00:00+08:00",
+      "valid_end": "2026-09-02T00:00:00+08:00"
+    },
+    {
+      "id": "W2",
+      "path": "weather-2.png",
+      "region_id": "demo",
+      "source_id": "S1",
+      "caption": "合成气象示意图，仅测试图片接入",
+      "issued_at": "2026-09-01T08:00:00+08:00",
+      "valid_start": "2026-09-02T00:00:00+08:00",
+      "valid_end": "2026-09-03T00:00:00+08:00"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": "demo-2026-09-07",
+  "disclaimer": "仅供演示，非正式标准判定。阈值数值参考 GB 3095-2012 二级浓度限值的量级设置，未满足标准规定的测量方法与平均时段，不能作为法定超标判定依据。",
+  "reference": "GB 3095-2012 二级浓度限值（量级参考）",
+  "pollutants": {
+    "pm2_5": { "threshold": 75.0,  "unit": "μg/m³", "basis": "GB 3095-2012 二级 24h 平均 75 μg/m³（量级参考）" },
+    "pm10":  { "threshold": 150.0, "unit": "μg/m³", "basis": "GB 3095-2012 二级 24h 平均 150 μg/m³（量级参考）" },
+    "so2":   { "threshold": 500.0, "unit": "μg/m³", "basis": "GB 3095-2012 二级 1h 平均 500 μg/m³（量级参考）" },
+    "no2":   { "threshold": 200.0, "unit": "μg/m³", "basis": "GB 3095-2012 二级 1h 平均 200 μg/m³（量级参考）" },
+    "o3":    { "threshold": 200.0, "unit": "μg/m³", "basis": "GB 3095-2012 二级 1h 平均 200 μg/m³（量级参考）" },
+    "co":    { "threshold": 10.0,  "unit": "mg/m³", "basis": "GB 3095-2012 二级 1h 平均 10 mg/m³（量级参考）" },
+    "ch4":   { "threshold": 2.0,   "unit": "ppm",   "basis": "演示用背景偏移筛查阈值（>2.0 ppm），非标准限值，异常需现场核验" }
+  },
+  "persistence": {
+    "description": "持续性判定：连续高于阈值的样本时长达到 watch_minutes 记为「关注」，达到 review_minutes 记为「建议复核」，达到 priority_minutes 或峰值超过 peak_factor 倍阈值记为「优先核查」。",
+    "watch_minutes": 5,
+    "review_minutes": 15,
+    "priority_minutes": 25,
+    "peak_factor": 2.0,
+    "max_gap_minutes": 3
+  },
+  "internal_status_note": "「关注 / 建议复核 / 优先核查」为内部业务状态，与官方气象预警等级无关。"
+}

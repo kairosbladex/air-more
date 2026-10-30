@@ -1,0 +1,22 @@
+[
+  {
+    "id": "P01_advice",
+    "entity_id": "P01",
+    "source_id": "S1",
+    "issued_at": "2026-09-01T08:00:00+08:00",
+    "quality": "valid",
+    "reason": "",
+    "text": "安排现场核查，并由业务人员复核统计资料。",
+    "evidence_ids": []
+  },
+  {
+    "id": "P02_advice",
+    "entity_id": "P02",
+    "source_id": "S1",
+    "issued_at": "2026-09-01T08:00:00+08:00",
+    "quality": "valid",
+    "reason": "",
+    "text": "安排现场核查，并由业务人员复核统计资料。",
+    "evidence_ids": []
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "data_kind": "business_import",
+  "region": {
+    "id": "demo",
+    "name": "示例区域"
+  },
+  "report_date": "2026-09-01",
+  "issue": "DRAFT",
+  "published_at": "2026-09-01T09:00:00+08:00",
+  "table_scope_id": "district",
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "business_import",
+      "label": "待填写业务数据来源",
+      "issued_at": "2026-09-01T08:00:00+08:00"
+    }
+  ],
+  "stations": [
+    {
+      "id": "P01",
+      "name": "示例站点1",
+      "region_id": "demo",
+      "order": 0,
+      "focus": true,
+      "kind": "park"
+    }
+  ],
+  "files": {
+    "statistics": "statistics.csv",
+    "ranks": "ranks.csv",
+    "contributions": "contributions.csv",
+    "forecasts": "forecasts.json",
+    "advice": "advice.json"
+  },
+  "weather_images": []
+}
